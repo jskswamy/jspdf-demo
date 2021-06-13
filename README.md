@@ -15,6 +15,7 @@ Sample application to demonstrate generating pdf from client side and send it as
 ```shell
 $ git clone https://github.com/jskswamy/jspdf-demo.git
 $ cd jspdf-demo
+$ npm install
 ```
 
 copy `.envrc.sample` to '.envrc' and source it or configure all the environment variables specified in the file.

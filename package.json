@@ -1,0 +1,27 @@
+{
+  "name": "jspdf-demo",
+  "version": "1.0.0",
+  "description": "Sample app to demonstrate converting a page into pdf and sent it as an email",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jskswamy/jspdf-demo.git"
+  },
+  "keywords": [
+    "nodejs",
+    "email",
+    "pdf"
+  ],
+  "author": "Krishnaswamy Subramanian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jskswamy/jspdf-demo/issues"
+  },
+  "homepage": "https://github.com/jskswamy/jspdf-demo#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

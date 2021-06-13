@@ -4,7 +4,7 @@
   "description": "Sample app to demonstrate converting a page into pdf and sent it as an email",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/jskswamy/jspdf-demo#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.6.1"
   }
 }

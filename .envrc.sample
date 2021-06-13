@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+export SEND_IN_BLUE_USER='your send in blue user'
+export SEND_IN_AUTH_PASS='your send in auth password'
+export SEND_IN_FROM_ADDRESS='your from address'
+export SEND_IN_TO_ADDRESS='your to address'

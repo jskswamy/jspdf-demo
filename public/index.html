@@ -3,14 +3,8 @@
     <title>Order Summary</title>
     <link rel="stylesheet" type="text/css" href="css/order.css">
     <script src="js/html2pdf.bundle.min.js"></script>
-    <script>
-        const email = () => {}
-        const print = () => {
-            const orderSummary = document.getElementById('order-summary');
-            const options = {filename: 'order-summary.pdf'};
-            html2pdf(orderSummary, options);
-        }
-    </script>
+    <script src="js/axios.min.js"></script>
+    <script src="js/order.js"></script>
 </head>
 <body>
 <div class="container" id="order-summary">

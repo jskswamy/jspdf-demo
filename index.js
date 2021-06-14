@@ -2,10 +2,10 @@ const express = require('express')
 const morgan = require('morgan');
 const {sendEmail} = require('./src/order');
 
-const port = 3001
+const port = process.env.PORT || 3001;
 const encoding = 'base64';
 const contentType = 'data:application/pdf;base64,';
-const app = express()
+const app = express();
 const logger = morgan('combined');
 
 app.use(logger);
